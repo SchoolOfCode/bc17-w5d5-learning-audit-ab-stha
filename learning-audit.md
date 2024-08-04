@@ -54,3 +54,18 @@ Learning Audit for Week 5 - Database Engineering:
 I will work on the hackathon from week 5 because this way I can practice my pool.query injections as well
 as work on the HTTP methods.
 
+
+![alt text](<../screenshots/Screenshot 2024-08-04 102726.png>)
+
+Screenshot of my albums.js file in the hackathon for week 5. Since our group only did the
+get and post functions for the artists, it took me a while to get the post function for 
+albums to work because the albums table has 3 columns as opposed to just one.
+
+
+![alt text](<../screenshots/Screenshot 2024-08-04 102944.png>)
+
+Screenshot of ChatGPT which I used to help me understand the pool.query code a bit better:
+I was wondering whether the parametrized values in the array had to match character for characer
+with the names of the table columns where I was trying to insert the data into.
+However, it does not matter. All that matters is the order of the elements in the array
+as that is how js will associate the corresponding values.
